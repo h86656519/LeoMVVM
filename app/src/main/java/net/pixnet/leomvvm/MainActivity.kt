@@ -5,6 +5,8 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import net.pixnet.leomvvm.databinding.ActivityMainBinding
 
+
+/*顯示UI和接收使用者動作，要observe viewModel*/
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var mainViewModel: MainViewModel
